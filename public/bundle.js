@@ -28569,9 +28569,14 @@
 	      'div',
 	      null,
 	      React.createElement(
-	        'h2',
+	        'h3',
 	        null,
-	        ' Examples Component'
+	        'Examples'
+	      ),
+	      React.createElement(
+	        'p',
+	        null,
+	        ' Welcome to examples page'
 	      )
 	    );
 	  }
