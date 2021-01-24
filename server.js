@@ -11,6 +11,7 @@ app.use(function (req, res, next){
     next();
   } else {
     // redirect if not http
+    console.log('req.hostname: '+ req.hostname + 'req.url: ' + req.url);
     res.redirect('http://' + req.hostname + req.url);
   }
 });
