@@ -18,7 +18,7 @@ var React = require('react');
  // var tem = "90F"
   return (
     <div>
-       <p>City temprature is {temp} in {location}</p>
+       <h3 className="text-center">City temprature is {temp} in {location}</h3>
     </div>
   );
 };
